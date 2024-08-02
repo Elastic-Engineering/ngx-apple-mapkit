@@ -1,0 +1,48 @@
+{
+  "name": "ngx-apple-mapkit",
+  "version": "0.0.35",
+  "description": "This is a renewed variant of the ngx-apple-maps. This runs on Angular 16 and Ivy. I personally use the library and it is therefore regularly maintained.\n",
+  "keywords": [
+    "apple",
+    "mapkit",
+    "ngx-apple-maps",
+    "angular",
+    "ngx",
+    "maps",
+    "mapkit.js",
+    "mapkitjs",
+    "angular-maps",
+    "angular-apple-maps"
+  ],
+  "author": {
+    "email": "npm@web-timo.de",
+    "name": "Timo Köhler",
+    "url": "https://www.web-timo.de/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/webtimo-de/ngx-apple-mapkit"
+  },
+  "peerDependencies": {
+    "@angular/common": "^18.1.2",
+    "@angular/core": "^18.1.2"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false,
+  "license": "MIT",
+  "module": "fesm2022/ngx-apple-mapkit.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2022": "./esm2022/ngx-apple-mapkit.mjs",
+      "esm": "./esm2022/ngx-apple-mapkit.mjs",
+      "default": "./fesm2022/ngx-apple-mapkit.mjs"
+    }
+  }
+}
